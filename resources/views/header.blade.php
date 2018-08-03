@@ -14,6 +14,8 @@
                     <li><a href="{{ route('user.index') }}">商铺管理员列表</a></li>
                     <li><a href="{{ route('rbac.index') }}">权限管理</a></li>
                     <li><a href="{{ route('roles.index') }}">角色管理</a></li>
+                    <li><a href="{{ route('event.index') }}" class="navbar-brand">抽奖活动列表</a></li>
+                    <li><a href="{{ route('eventprize.index') }}" class="navbar-brand">奖品列表</a></li>
                 </ul>
                 <form class="navbar-form navbar-left">
                     <div class="form-group">

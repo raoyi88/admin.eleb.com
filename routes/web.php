@@ -15,3 +15,9 @@ Route::get('ongoing','ActivityController@ongoing')->name('ongoing');
 Route::get('overdue','ActivityController@overdue')->name('overdue');
 Route::resource('rbac','RbacController');
 Route::resource('roles','RoleController');
+
+//抽奖活动
+Route::resource('event','EventController');
+
+//奖品
+Route::resource('eventprize','EventPrizeController');
